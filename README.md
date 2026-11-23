@@ -18,7 +18,7 @@ This survey asks what large language models judge in biological research, what e
 
 Content updated **2026-11-23**.
 
-[Framework](#research-framework) · [Reading routes](#reading-guide) · [Compare papers](#tasks-and-methods) · [Validation map](#validation-evidence) · [Further reading](#further-reading) · [Contribute](#scope-and-contributions)
+[Framework](#research-framework) · [Reading routes](#reading-guide) · [Compare papers](#tasks-and-methods) · [Validation map](#validation-evidence) · [Further reading](#further-reading) · [Contribute](#scope-and-contributions) · [Contributors](#contributors)
 
 ## Research framework
 
@@ -117,3 +117,8 @@ We cover basic biology, biological engineering and drug discovery. Clinical diag
 Edit [papers.yaml](papers.yaml) using one stable ID per work. For each core paper, describe the task under `homepage.flow`, code performed tests under `validation`, and record review time, retrospective selection and prospective benefit under `outcomes`. Give each reported item a source location. Use `Pending verification` when its status is unresolved. Update the content date in this README when revising the survey. With Python 3.9+ and PyYAML, run `python3 generate_paper_list.py`, then `python3 generate_paper_list.py --check`. The script refreshes the marked blocks and both SVG figures.
 
 [Evidence notes](docs/evidence.md) · [Screening decisions and migration history](docs/screening.md)
+
+## Contributors
+
+- [COLA Laboratory](https://github.com/COLA-Laboratory) leads and maintains the survey.
+- [OpenAI Codex](https://github.com/codex), an AI assistant, helped compile the literature catalog, draft the search methods and evidence guide, and update the repository.
