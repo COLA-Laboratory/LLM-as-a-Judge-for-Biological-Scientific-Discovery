@@ -1,6 +1,10 @@
 # LLM-as-a-Judge for Biological Scientific Discovery
 
-This survey compares what LLMs judge in biological research, how they reach a verdict, and what evidence validates it.
+This survey asks what large language models judge in biological research, what evidence they use, and how their verdicts are evaluated. We follow each verdict from its object and criterion to the research decision it informs.
+
+**Literature register.** As of 22 November 2026, the working register covers 251 domain studies, including six provisionally included from abstracts, and 32 papers on general evaluation methods. A further 23 reports are awaiting an eligibility decision. Where we identified a preprint and a published report of the same study, we counted them together.
+
+**Reading selection in this repository**
 
 <!-- SUMMARY:START -->
 
@@ -8,15 +12,25 @@ This survey compares what LLMs judge in biological research, how they reach a ve
 
 <!-- SUMMARY:END -->
 
-Content updated **2026-11-19**.
+Content updated **2026-11-23**.
 
 [Framework](#research-framework) · [Reading routes](#reading-guide) · [Compare papers](#tasks-and-methods) · [Validation map](#validation-evidence) · [Further reading](#further-reading) · [Contribute](#scope-and-contributions)
 
 ## Research framework
 
+| Task | Question the verdict answers |
+| --- | --- |
+| Hypotheses and mechanisms | How strongly does the available evidence support a proposed explanation? |
+| Candidate prioritization | Which of the available candidates merit further review under the stated criteria? |
+| Research plans and analyses | Is the plan or analysis adequate for the research question? |
+| Research outputs and scientific claims | Does the output match an independent reference, or does the cited evidence support the claim? |
+| Study eligibility and evidence quality | Should a report enter a review, and how should its evidence be appraised? |
+
+Study screening and appraisal are adjacent uses in evidence synthesis. One study can report several kinds of verdicts, such as reviewing an analysis and separately checking its output.
+
 ![Four studies grouped by biological task, showing the object, evidence or criteria, verdict and possible use for each judge.](assets/framework.svg)
 
-**Figure 1.** Read across a study to follow one judgment. The two studies in the first band evaluate evidence at different scales: SKiM-GPT scores a whole relationship, while KnowHD counts supported claims in its rationale. A possible use describes what the verdict can inform. The dashed band identifies directions the survey aims to cover.
+**Figure 1.** Read across a study to follow one judgment. The two studies in the first band evaluate evidence at different scales: SKiM-GPT scores a whole relationship, while KnowHD counts supported claims in its rationale. A possible use describes what the verdict can inform. The dashed band identifies tasks outside this four-study selection.
 
 ## Reading guide
 
@@ -26,7 +40,7 @@ Content updated **2026-11-19**.
 
 ## Tasks and methods
 
-The core papers address three tasks: checking evidence for a claim, assessing the quality of a proposed hypothesis, and grading a research assistant’s output. The role below each venue identifies whether the paper develops a judge or uses one to study another task.
+The four studies below cover evidence checks, hypothesis appraisal, and research assistant outputs. The role below each venue identifies whether the paper develops a judge or uses one to study another task.
 
 <!-- COMPARISON:START -->
 
@@ -53,7 +67,13 @@ The core papers address three tasks: checking evidence for a claim, assessing th
 - **Retrospective selection.** KnowHD selected the highest-scoring of five candidates per input. On the graph-plus-literature setting, GPT-4o-mini reached 63.44% relation accuracy; the comparison with greedy decoding and majority voting varied by setting. [§4.4, Fig. 4](https://ijcai.org/proceedings/2025/0873.pdf)
 - **Prospective discovery benefit.** Across the four core papers, none reports a prospective comparison linking use of the judge to laboratory-confirmed improvements in discovery yield. Reference labels, expert preferences and system-level results alone cannot establish that benefit. [Study-level outcome records](docs/evidence.md)
 
-**Coverage gaps.** The current core set leaves experimental-design quality and prospective candidate prioritization open. Relevant studies would connect a recorded judge verdict to expert design assessments or measured outcomes for the candidates selected.
+### Examples from the expanded review
+
+- **Agreement about the same evidence.** In SKiM-GPT, the judge and four specialists assessed literature support for 14 selected hypotheses. Their scores had a quadratic-weighted Cohen’s κ of 0.84. The comparison measures agreement on the hypotheses and supplied abstracts. [SKiM-GPT, Fig. 3](https://link.springer.com/article/10.1186/s12859-025-06350-7#Fig3)
+- **Process review and output correctness.** In BIABench, the adopted judge and a blinded specialist agreed on 87% of the 922 process items both decided across 20 runs. BIABench separately scored the submitted outputs against reference results. [BIABench, §3.3 and Appendix E](https://arxiv.org/html/2609.34274v1#S3.SS3)
+- **Performance when a verdict informs a decision.** In a LEADS screening pilot, reviewers selected 10 of 30 citations per topic. With and without assistance, recall was 0.81 and 0.78, and mean screening times were 449 and 580 seconds, respectively. These estimates apply to the tested shortlist and selection quota. [LEADS, Fig. 5](https://www.nature.com/articles/s41467-025-62058-5#Fig5)
+
+When a judge changes which candidates are followed up, outcomes among selected candidates describe the results of that selection. Estimating how much the judge improved discovery yield requires a comparison with another selection policy under comparable resources and outcome assessment.
 
 **Design your own judge.** Use the [design checklist and example evaluation record](docs/judge-design.md) to define evidence access, record separate verdicts and plan an independent check.
 
@@ -85,6 +105,8 @@ The core papers address three tasks: checking evidence for a claim, assessing th
 <!-- PAPER-LIST:END -->
 
 ## Scope and contributions
+
+We searched for named judge roles and for research tasks such as claim verification, prioritization, and screening. Database searches were supplemented by venue checks, targeted full-text searches, and citation tracking. To enter the domain register, a study had to report an identifiable LLM appraisal of a specific research object, process, or output. Selected studies received detailed review to compare judgment criteria, reference standards, and observed uses. The register reflects ongoing screening and version checks.
 
 We cover basic biology, biological engineering and drug discovery. Clinical diagnosis and patient advice are adjacent areas. To include a direct judge study, locate the **evaluated object, evidence or criteria, verdict format, and supporting method section or public prompt**. Keep unverified candidates in the [screening record](docs/screening.md).
 
