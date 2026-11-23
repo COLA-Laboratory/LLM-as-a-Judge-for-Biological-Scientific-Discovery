@@ -1,0 +1,69 @@
+id,register_category,citation,year,venue,source_url
+B01,Claim and evidence verification,"Freeman et al. (2026), SKiM-GPT",2026,BMC Bioinformatics,https://doi.org/10.1186/s12859-025-06350-7
+B04,Claim and evidence verification,"Moore et al. (2026), Quantifying Evidence for Competing Biomedical Hypotheses using Large Language Models and Bayesian Analysis",2026,bioRxiv,https://doi.org/10.64898/2026.06.05.730173
+B07,Candidate prioritization,"Okonkwo, Okunoye & Arpinar (2026), HypoKG",2026,Findings of EMNLP,https://aclanthology.org/2026.findings-emnlp.1376/
+B33,Candidate prioritization,"Liu et al. (2026), ResearchBench",2026,Findings of ACL,https://doi.org/10.18653/v1/2026.findings-acl.644
+B35,Workflow and output evaluation,"Mitchener et al. (2025), BixBench",2025,arXiv,https://arxiv.org/html/2503.00096v3
+B46,Workflow and output evaluation,BIABench,2026,arXiv,https://arxiv.org/html/2609.34274v1
+B93,Candidate prioritization,"Aiersilan & Qu (2026), Agentic Feature Selection via LLM for Epileptic Seizure Detection",2026,BioNLP,https://aclanthology.org/2026.bionlp-1.6.pdf
+B101,Evidence and quality appraisal,"Xu et al. (2025), MRAgent",2025,Briefings in Bioinformatics,https://pmc.ncbi.nlm.nih.gov/articles/PMC11975362/
+B108,Evidence and quality appraisal,"de Almeida & Papanikolaou (2025), Auto-METRICS",2025,European Journal of Radiology,https://doi.org/10.1016/j.ejrad.2025.112358
+B109,Evidence and quality appraisal,"Mese & Kocak (2025), ChatGPT as an effective tool for quality evaluation of radiomics research",2025,European Radiology,https://doi.org/10.1007/s00330-024-11122-7
+B110,Evidence and quality appraisal,"Mese & Kocak (2025), Large language models in methodological quality evaluation of radiomics research based on METRICS",2025,European Journal of Radiology,https://doi.org/10.1016/j.ejrad.2025.111960
+B111,Evidence and quality appraisal,"Mese et al. (2025/2026), Added value of METRICS-E3",2025/2026,European Journal of Radiology,https://doi.org/10.1016/j.ejrad.2025.112519
+B112,Evidence and quality appraisal,"Garello et al. (2026), Methodological quality of cardiac CT and MRI radiomics studies",2026,European Radiology Experimental,https://doi.org/10.1186/s41747-026-00756-5
+B116,Workflow and output evaluation,"Asai et al. (2026), Synthesizing scientific literature with retrieval-augmented language models (OpenScholar)",2026,Nature,https://doi.org/10.1038/s41586-025-10072-4
+B138,Claim and evidence verification,"Hu et al. (2025), Evaluation of large language models for discovery of gene set function",2025,Nature Methods,https://pmc.ncbi.nlm.nih.gov/articles/PMC11725441/
+B152,Workflow and output evaluation,"Laskar et al. (2025), Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge",2025,ACL,https://aclanthology.org/2025.acl-long.1238.pdf
+B182,Review eligibility screening,"Wang et al. (2024/2025), Accelerating clinical evidence synthesis with large language models",2024/2025,npj Digital Medicine,https://pmc.ncbi.nlm.nih.gov/articles/PMC12331930/
+B183,Review eligibility screening,"Wang et al. (2025), A foundation model for human-AI collaboration in medical literature mining",2025,Nature Communications,https://pmc.ncbi.nlm.nih.gov/articles/PMC12460617/
+B184,Review eligibility screening,"Oami, Okada & Nakada (2025), Optimal large language models to screen citations for systematic reviews",2025,Research Synthesis Methods,https://pmc.ncbi.nlm.nih.gov/articles/PMC12657656/
+B188,Evidence and quality appraisal,"Kokkas et al. (2026), Artificial intelligence can match domain experts in evidence extraction and critical appraisal of microbial oncogenesis research publications",2026,Frontiers in Cellular and Infection Microbiology,https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2026.1876326/full
+B189,Review eligibility screening,"Li et al. (2025/2026), AI-assisted literature screening: A hybrid approach using large language models and retrieval-augmented generation",2025/2026,International Journal of Medical Informatics,https://pubmed.ncbi.nlm.nih.gov/41325716/
+B201,Evidence and quality appraisal,"DeBono et al. (2025), A large language model-based tool for identifying relationships to industry in research on the carcinogenicity of benzene, cobalt, and aspartame",2025,Environmental Health,https://doi.org/10.1186/s12940-025-01223-1
+B203,Review eligibility screening,"Nicholson Thomas, Roche & Grêt-Regamey (2024), Harnessing artificial intelligence for efficient systematic reviews: A case study in ecosystem condition indicators",2024,Ecological Informatics,https://www.research-collection.ethz.ch/entities/publication/9012b50d-69c2-4b72-9c2c-def64f2f53b3
+B209,Evidence and quality appraisal,"Pronesti et al. (2026), AutoForest: Automatically Generating Forest Plots from Biomedical Studies with End-to-End Evidence Extraction and Synthesis",2026,ACL System Demonstrations,https://aclanthology.org/2026.acl-demo.13.pdf
+B215,Evidence and quality appraisal,"Sánchez-Piedra et al. (2026), Artificial Intelligence-Supported Evidence Synthesis: A Case Study of Smart Infusion Pump Interoperability",2026,Medical Sciences,https://www.mdpi.com/2076-3271/14/5/533
+B216,Review eligibility screening,"Lee et al. (2025), A4SLR: An Agentic Artificial Intelligence-Assisted Systematic Literature Review Framework",2025,Value in Health,https://www.valueinhealthjournal.com/article/S1098-3015%2825%2902514-8/fulltext
+B222,Evidence and quality appraisal,"Roberts et al. (2023), Comparative study of ChatGPT and human evaluators on the assessment of medical literature according to recognised reporting standards",2023,BMJ Health & Care Informatics,https://informatics.bmj.com/content/30/1/e100830.full.pdf
+B224,Workflow and output evaluation,"Reder et al. (2025), LLM-retrieval based scientific knowledge grounding",2025,ESWC Workshops,https://ceur-ws.org/Vol-3977/NSLP-01.pdf
+B227,Review eligibility screening,"Sanghera et al. (2025), High-performance automated abstract screening with large language model ensembles",2025,JAMIA,https://pmc.ncbi.nlm.nih.gov/articles/PMC12012331/
+B228,Review eligibility screening,"Trad et al. (2025), Streamlining systematic reviews with large language models using prompt engineering and retrieval augmented generation",2025,BMC Medical Research Methodology,https://www.aub.edu.lb/fm/CaMOP/publications/Streamlining-systematic-reviews-with-large-language.pdf
+B229,Evidence and quality appraisal,"Forero et al. (2025), Automated analyses of risk of bias and critical appraisal of systematic reviews (ROBIS and AMSTAR 2)",2025,JAMIA,https://pmc.ncbi.nlm.nih.gov/articles/PMC12361857/
+B231,Claim and evidence verification,"Windisch et al. (2026), Show Your Work: Verbatim Evidence Requirements and Automated Assessment of Large Language Models for Biomedical Text Processing of Trial Eligibility Criteria",2026,Cureus,https://pmc.ncbi.nlm.nih.gov/articles/PMC13252682/
+B232,Review eligibility screening,"Wang et al. (2026), AI-Assisted Systematic Literature Review of the Economic Burden of Pneumococcal Disease: Development and Validation Study",2026,JMIR AI,https://pmc.ncbi.nlm.nih.gov/articles/PMC13268435/
+B233,Evidence and quality appraisal,"Munguía-Realpozo et al. (2026), Custom GPT models for complex rheumatology systematic reviews",2026,Digital Health,https://journals.sagepub.com/doi/full/10.1177/20552076261467480
+B234,Evidence and quality appraisal,"Okeke et al. (2026), Comparative performance of large language models for appraising bias in real-world evidence studies",2026,Journal of Managed Care & Specialty Pharmacy,https://pmc.ncbi.nlm.nih.gov/articles/PMC13505367/
+B236,Workflow and output evaluation,"Gorenshtein et al. (2026), LitBench: A Benchmark for Retrieval-Grounded Multi-Paper Evidence Synthesis in Epilepsy",2026,medRxiv,https://pmc.ncbi.nlm.nih.gov/articles/PMC13622311/
+B237,Review eligibility screening,"Guo et al. (2023/2024), Automated Paper Screening for Clinical Reviews Using Large Language Models",2023/2024,JMIR,https://www.jmir.org/2024/1/e48996
+B238,Review eligibility screening,"Robinson et al. (2023), Bio-SIEVE: Exploring Instruction Tuning Large Language Models for Systematic Review Automation",2023,arXiv,https://arxiv.org/pdf/2308.06610
+B239,Review eligibility screening,"Tran et al. (2024), Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses",2024,Annals of Internal Medicine,https://pubmed.ncbi.nlm.nih.gov/38768452/
+B240,Evidence and quality appraisal,"Hasan et al. (2024), Integrating large language models in systematic reviews: a framework and case study using ROBINS-I for risk of bias assessment",2024,BMJ Evidence-Based Medicine,https://pubmed.ncbi.nlm.nih.gov/38383136/
+M01,General evaluation methods,"Zheng et al. (2023), Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",2023,NeurIPS,https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html
+M02,General evaluation methods,"Liu et al. (2023), G-Eval",2023,EMNLP,https://doi.org/10.18653/v1/2023.emnlp-main.153
+M03,General evaluation methods,"Tan et al. (2025), JudgeBench",2025,ICLR,https://proceedings.iclr.cc/paper_files/paper/2025/hash/9e720fce64f91114c49cfd640d821da3-Abstract-Conference.html
+M04,General evaluation methods,"Si, Yang & Hashimoto (2025), Can LLMs Generate Novel Research Ideas?",2025,ICLR,https://proceedings.iclr.cc/paper_files/paper/2025/hash/ea94957d81b1c1caf87ef5319fa6b467-Abstract-Conference.html
+M05,General evaluation methods,"Starace et al. (2025), PaperBench",2025,arXiv,https://arxiv.org/html/2504.01848
+M06,General evaluation methods,"Hu et al. (2025), REPRO-Bench",2025,arXiv,https://arxiv.org/html/2507.18901
+M07,General evaluation methods,"Qiu et al. (2026), PRBench",2026,arXiv,https://arxiv.org/html/2603.27646
+M08,General evaluation methods,"Calderon, Reichart & Dror (2025), The Alternative Annotator Test for LLM-as-a-Judge",2025,ACL,https://aclanthology.org/2025.acl-long.782/
+M09,General evaluation methods,"Rahgozar & Mortezaagha (2026), An auditable pipeline for fuzzy full-text screening in systematic reviews",2026,Artificial Intelligence Review,https://pmc.ncbi.nlm.nih.gov/articles/PMC13529844/
+M12,General evaluation methods,"Flicke et al. (2026), HorizonBench",2026,IJCNLP-AACL,https://aclanthology.org/2026.aacl-long.202.pdf
+M13,General evaluation methods,"Vasu et al. (2026), HARPA",2026,IJCNLP-AACL,https://aclanthology.org/2026.aacl-long.215.pdf
+M14,General evaluation methods,"Woo et al. (2026), YouRA",2026,IJCNLP-AACL,https://aclanthology.org/2026.aacl-short.26.pdf
+M15,General evaluation methods,"Khajavi et al. (2026), CITECHECK",2026,GroundLM,https://aclanthology.org/2026.groundlm-1.58.pdf
+M16,General evaluation methods,"Nnamdi et al. (2026), Epistemic Erosion",2026,IJCNLP-AACL,https://aclanthology.org/2026.aacl-long.223.pdf
+M17,General evaluation methods,"Acharya et al. (2026), Ontology-Guided Knowledge Graph Construction from Structured Metadata and Climate Science Publications",2026,IJCNLP-AACL,https://aclanthology.org/2026.aacl-long.252.pdf
+M18,General evaluation methods,"James et al. (2026), RIGOURATE",2026,Findings of ACL,https://aclanthology.org/2026.findings-acl.1699.pdf
+M19,General evaluation methods,"Ise et al. (2026), Lit3R",2026,GroundLM,https://aclanthology.org/2026.groundlm-1.89.pdf
+M20,General evaluation methods,"Kumar et al. (2026), Encoded but Not Routed",2026,Findings of IJCNLP-AACL,https://aclanthology.org/2026.findings-aacl.185.pdf
+M21,General evaluation methods,"Ishikawa et al. (2026), HYDRA",2026,Findings of IJCNLP-AACL,https://aclanthology.org/2026.findings-aacl.206.pdf
+M22,General evaluation methods,"Jansen, Hassan & Narasimha (2026), CodeDistiller",2026,ACL System Demonstrations,https://aclanthology.org/2026.acl-demo.10.pdf
+M23,General evaluation methods,"Kim et al. (2025), AlchemyBench",2025,CIKM,https://doi.org/10.1145/3746252.3761359
+M24,General evaluation methods,"Russo et al. (2025/2026), Abacus: A Cost-Based Optimizer for Semantic Operator Systems",2025/2026,PVLDB,https://arxiv.org/html/2505.14661v3
+M25,General evaluation methods,"Remaki et al. (2026), SynCABEL: Synthetic Contextualized Augmentation for Biomedical Entity Linking",2026,IJCAI,https://doi.org/10.24963/ijcai.2026/763
+M26,General evaluation methods,"Chen, Wen & Zulkernine (2025), A Multiagent Summarization and Auto-Evaluation Framework for Medical Text",2025,JMIR AI,https://ai.jmir.org/2025/1/e75932
+M28,General evaluation methods,"Belmadani et al. (2026), Who Judges the Judge? Evaluating LLM-as-a-Judge for French Medical open-ended QA",2026,HEALING,https://aclanthology.org/2026.healing-1.12.pdf
+M29,General evaluation methods,"Liu et al. (2025), MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem",2025,NeurIPS,https://papers.nips.cc/paper_files/paper/2025/file/1ddd6c6909c2a7acf877ce0f84abf6eb-Paper-Conference.pdf
+M31,General evaluation methods,"Liu et al. (2026), PolyReal: A Benchmark for Real-World Polymer Science Workflows",2026,CVPR Findings,https://doi.org/10.1109/CVPRF71909.2026.00192
+M32,General evaluation methods,"Khraisha et al. (2024), Can large language models replace humans in systematic reviews?",2024,Research Synthesis Methods,https://onlinelibrary.wiley.com/doi/10.1002/jrsm.1715
