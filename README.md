@@ -4,6 +4,10 @@ This survey asks what large language models judge in biological research, what e
 
 **Literature register.** As of 22 November 2026, the working register covers 251 domain studies, including six provisionally included from abstracts, and 32 papers on general evaluation methods. A further 23 reports are awaiting an eligibility decision. Where we identified a preprint and a published report of the same study, we counted them together.
 
+- [Literature catalog](docs/literature-catalog.md) shows the coverage by topic and 68 selected references with a downloadable CSV.
+- [Search and screening methods](docs/search-methods.md) documents the databases searched, eligibility criteria, study linkage, and coverage limits.
+- [Validation evidence guide](docs/validation-evidence.md) compares seven cases and shows what each evaluation supports.
+
 **Reading selection in this repository**
 
 <!-- SUMMARY:START -->
@@ -75,7 +79,7 @@ The four studies below cover evidence checks, hypothesis appraisal, and research
 
 When a judge changes which candidates are followed up, outcomes among selected candidates describe the results of that selection. Estimating how much the judge improved discovery yield requires a comparison with another selection policy under comparable resources and outcome assessment.
 
-**Design your own judge.** Use the [design checklist and example evaluation record](docs/judge-design.md) to define evidence access, record separate verdicts and plan an independent check.
+The [validation evidence guide](docs/validation-evidence.md) gives study-specific denominators, comparisons and limitations. The [design checklist and example evaluation record](docs/judge-design.md) shows how to document a verdict and its reference.
 
 ## Further reading
 
@@ -106,7 +110,7 @@ When a judge changes which candidates are followed up, outcomes among selected c
 
 ## Scope and contributions
 
-We searched for named judge roles and for research tasks such as claim verification, prioritization, and screening. Database searches were supplemented by venue checks, targeted full-text searches, and citation tracking. To enter the domain register, a study had to report an identifiable LLM appraisal of a specific research object, process, or output. Selected studies received detailed review to compare judgment criteria, reference standards, and observed uses. The register reflects ongoing screening and version checks.
+We searched for named judge roles and for research tasks such as claim verification, prioritization, and screening. The [search and screening methods](docs/search-methods.md) describe the executed searches, eligibility rules, and how reports were linked to studies.
 
 We cover basic biology, biological engineering and drug discovery. Clinical diagnosis and patient advice are adjacent areas. To include a direct judge study, locate the **evaluated object, evidence or criteria, verdict format, and supporting method section or public prompt**. Keep unverified candidates in the [screening record](docs/screening.md).
 
