@@ -26,6 +26,7 @@ The old README also linked resources outside its structured paper list. Chatbot 
 | [fair-evaluators](evidence.md#fair-evaluators) | draft | C | included | full text checked | A practical order-swap control for ranking scientific responses. |
 | [self-preference](evidence.md#self-preference) | draft | C | included | full text checked | Tests a confounder when a hypothesis generator also evaluates its own outputs. |
 | [verdict-reliability](evidence.md#verdict-reliability) | draft | C | included | full text checked | Separates repeatability, order invariance and agreement with reference labels. |
+| [pac-bayes-judges](evidence.md#pac-bayes-judges) | New | C | included | full text checked | Provides a candidate method for bounding error against expert labels on a defined biological judging task, such as citation support. |
 | [judge-survey](evidence.md#judge-survey) | main, draft | E | included | full text checked | Citation tracing and terminology. Counted only as a review. |
 | [rewardbench](evidence.md#rewardbench) | main, draft | C | excluded | abstract only | Historical benchmark for reward models. Its benchmark labels alone do not establish biological LLM judgment. |
 | [rankrefine](evidence.md#rankrefine) | main | C | excluded | abstract only | The linked paper refines continuous property estimates with pairwise rankings. The legacy title misidentified the method as repair of LLM judge rankings. |
