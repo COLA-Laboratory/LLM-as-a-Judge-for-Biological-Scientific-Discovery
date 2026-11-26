@@ -12,11 +12,11 @@ This survey asks what large language models judge in biological research, what e
 
 <!-- SUMMARY:START -->
 
-**Survey in progress** · 4 core biological studies · 14 included works · 20 records screened
+**Survey in progress** · 4 core biological studies · 15 included works · 21 records screened
 
 <!-- SUMMARY:END -->
 
-Content updated **2026-11-23**.
+Content updated **2026-11-26**.
 
 [Framework](#research-framework) · [Reading routes](#reading-guide) · [Compare papers](#tasks-and-methods) · [Validation map](#validation-evidence) · [Further reading](#further-reading) · [Contribute](#scope-and-contributions) · [Contributors](#contributors)
 
@@ -79,13 +79,15 @@ The four studies below cover evidence checks, hypothesis appraisal, and research
 
 When a judge changes which candidates are followed up, outcomes among selected candidates describe the results of that selection. Estimating how much the judge improved discovery yield requires a comparison with another selection policy under comparable resources and outcome assessment.
 
+**Generalization to new cases.** Lamb et al. give a PAC-Bayes upper bound on a safety judge’s expected loss on a specified deployment distribution. In biological research, one possible application is to bound how often a judge disagrees with experts on whether a citation supports a claim, using labeled cases sampled from the intended workflow. A change in the deployment distribution would require a new bound. [Paper, §§4–6 and Appendix A.2](https://arxiv.org/html/2611.20818v1#S4) · [Evidence notes](docs/evidence.md#pac-bayes-judges)
+
 The [validation evidence guide](docs/validation-evidence.md) gives study-specific denominators, comparisons and limitations. The [design checklist and example evaluation record](docs/judge-design.md) shows how to document a verdict and its reference.
 
 ## Further reading
 
 <!-- PAPER-LIST:START -->
 
-<details><summary>General methods and reliability (8)</summary>
+<details><summary>General methods and reliability (9)</summary>
 
 - [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://doi.org/10.18653/v1/2023.emnlp-main.153) — Operationalizes a written evaluation criterion as model-generated evaluation steps and a score. [Notes](docs/evidence.md#g-eval)
 - [FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation](https://doi.org/10.18653/v1/2023.emnlp-main.741) — Decomposes long answers and estimates the fraction of facts supported by a reference source. [Notes](docs/evidence.md#factscore)
@@ -95,6 +97,7 @@ The [validation evidence guide](docs/validation-evidence.md) gives study-specifi
 - [Large Language Models are not Fair Evaluators](https://doi.org/10.18653/v1/2024.acl-long.511) — Swapping the order of two answers changes the reported winner. The authors test balanced presentation orders to reduce this effect. [Notes](docs/evidence.md#fair-evaluators)
 - [LLM Evaluators Recognize and Favor Their Own Generations](https://arxiv.org/abs/2404.13076) — Tests whether judges recognize their own text and finds that stronger self-recognition tracks a stronger preference for their own answers. [Notes](docs/evidence.md#self-preference)
 - [All Verdicts are Not Equal: Rethinking LLM Judge Reliability](https://doi.org/10.18653/2026.aacl-long.207) — Crosses repeated trials with answer-order swaps and reference labels to distinguish reproducibility, order sensitivity, and correctness. [Notes](docs/evidence.md#verdict-reliability)
+- [Tight PAC-Bayes Generalisation Guarantees for Large Language Model Judges](https://arxiv.org/abs/2611.20818) — Uses compressed fine-tuning adapters to bound a safety judge’s classification and Brier risks on a specified deployment distribution without a separate validation split for certification. [Notes](docs/evidence.md#pac-bayes-judges)
 
 </details>
 

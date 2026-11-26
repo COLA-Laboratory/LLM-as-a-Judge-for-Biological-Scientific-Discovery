@@ -354,6 +354,30 @@ Tasks: output quality. Methods: pairwise comparison, pointwise scoring.
 
 [doi](https://doi.org/10.18653/2026.aacl-long.207) · [arxiv](https://arxiv.org/abs/2610.12083)
 
+### pac-bayes-judges
+
+**[Tight PAC-Bayes Generalisation Guarantees for Large Language Model Judges](https://arxiv.org/abs/2611.20818)** · NeurIPS 2026 · 2026
+
+C · included · full text checked
+
+Uses compressed fine-tuning adapters to bound a safety judge’s classification and Brier risks on a specified deployment distribution without a separate validation split for certification.
+
+Tasks: output quality. Methods: classification.
+
+- **Object** — Prompt–response pairs assessed for safety.
+- **Criteria and evidence** — Reference safety labels and a fixed pretrained guardrail adapted by parameter-efficient fine-tuning. LoRA-GT shares a quantization scale across layers to shorten the adapter’s description.
+- **Judge output** — A binary safety verdict, with category probabilities extracted from the model’s token probabilities. The PAC-Bayes certificate bounds expected loss using sample loss and adapter description length.
+- **Method location** — §4 derives the certificate, §5 compares it with test risk across five guardrail models and four safety benchmarks, and Appendix A.2 gives the assumptions. [Source](https://arxiv.org/html/2611.20818v1)
+- **Repeated judgments** — Not reported
+- **Expert agreement** — Not reported
+- **Literature support** — Not reported
+- **Biological experimental validation** — Not reported
+- **Decision or efficiency benefit** — Not reported
+- **Limitation** — The guarantee assumes independent, identically distributed labeled examples from the target distribution and a backbone, prior and decoder fixed independently of those examples. The experiments concern safety classification.
+- **Screening rationale** — Provides a candidate method for bounding error against expert labels on a defined biological judging task, such as citation support.
+
+[arxiv](https://arxiv.org/abs/2611.20818) · [code](https://github.com/tomalamb/generalisation-guarantees-llm-judges)
+
 ### judge-survey
 
 **[A survey on LLM-as-a-judge](https://doi.org/10.1016/j.xinn.2025.101253)** · The Innovation, article 101253 (arXiv first posted 2024) · 2026
